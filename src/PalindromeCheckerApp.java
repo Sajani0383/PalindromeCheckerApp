@@ -16,9 +16,11 @@ public class PalindromeCheckerApp {
             }
         }
         if(isPalindrome){
-            System.out.println("The string \""+input+"\" is a palindrome.");
+            System.out.println("Input: "+input);
+            System.out.println("Is palindrome? : true");
         }else{
-            System.out.println("The string \""+input+"\" is not a palindrome.");
+            System.out.println("Input: "+input);
+            System.out.println("Is palindrome? : false");
         }
     }
 }
